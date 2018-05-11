@@ -2,6 +2,7 @@
 _vendor/
 .bundle/
 .jekyll-metadata
+_site/
 
 # OS X specific
 .DS_Store
