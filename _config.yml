@@ -13,7 +13,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-url: "https://eleonora.tammo.io"
+url: "http://eleonora.tammo.io"
 
 sass:
   style: compressed
