@@ -1,0 +1,22 @@
+title: Eleonora & Tammo
+author: Tammo Ippen
+name: Tammo Ippen
+email: tammo.ippen@posteo.de
+
+description: >
+  Some very nice description!
+excerpt_separator: <!--more-->
+
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+url: "https://eleonora.tammo.io"
+
+sass:
+  style: compressed
+
+kramdown:
+  input: GFM

@@ -1,0 +1,7 @@
+# Ruby / Jekyll specific
+_vendor/
+.bundle/
+.jekyll-metadata
+
+# OS X specific
+.DS_Store
