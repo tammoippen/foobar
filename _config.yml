@@ -3,8 +3,9 @@ author: Tammo Ippen
 name: Tammo Ippen
 email: tammo.ippen@posteo.de
 
+lang: de
 description: >
-  Some very nice description!
+  Eine sehr schöne Beschreibung!
 excerpt_separator: <!--more-->
 
 markdown: kramdown
