@@ -22,7 +22,15 @@ a.navbar-item:hover {
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Amatic SC', cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.label {
+    font-size: 2rem;
 }
 
 .page-content{
@@ -44,4 +52,12 @@ a.navbar-item:hover {
 .reverse {
     unicode-bidi: bidi-override;
     direction: rtl;
+}
+
+
+.frame {
+    padding: 8px;
+    border: 1px solid #999999;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #999;
 }

@@ -1,0 +1,38 @@
+---
+layout: default
+title: Teerunde
+last_modified_at: 2018-05-11T21:13:00+01:00
+---
+
+<div class="section">
+  <div class="container has-text-centered">
+    <img src="{{site.url}}/assets/teerunde.png"></img>
+    <p class="title">Bitte melde dich und deine Begleitung(en) an:</p>
+    <form action="//formspree.io/tammo.ippen@posteo.de" method="POST">
+      <div class="field">
+        <label class="label">Email</label>
+        <input class="input" type="email" name="name" placeholder="Email input">
+      </div>
+      <div class="field">
+        <label class="label">Wer kommt mit?</label>
+        <div class="control">
+          <textarea class="textarea" name="gaeste" placeholder="Wer kommt mit?"></textarea>
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Kommentare?</label>
+        <div class="control">
+          <textarea class="textarea" name="comment" placeholder="Kommentare?"></textarea>
+        </div>
+      </div>
+      <input type="hidden" name="_next" value='{{site.url}}/danke' />
+      <input type="hidden" name="_subject" value="[Hochzeit]" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <div class="field">
+        <input type="image" src="{{site.url}}/assets/herzkoeniginkarte.png"
+        alt="Submit"
+        title="Formular abschicken!" />
+      </div>
+    </form>
+  </div>
+</div>
