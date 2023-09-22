@@ -6,8 +6,9 @@ setup:
 update:
 	bundle update
 
-serve:
-	bundle exec jekyll serve -H 127.0.0.1
+serve: build
+	# bundle exec jekyll serve -H 127.0.0.1
+	python -m http.server --bind 127.0.0.1 --directory _site 8080
 
 build:
 	rm -rf _site
